@@ -1,0 +1,47 @@
+.top-bar-lang-centent-dispaly {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.lang-icon-display {
+    font-size: 5vmax;
+    cursor: pointer;
+}
+.lang-selector-layout-display {
+    position: absolute;
+    width: 130px;
+    height: 200px;
+    z-index: 2;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 23px -8px rgba(0, 0, 0, 0.2);
+    transition: left .5s cubic-bezier(0, .39, 0, .63);
+}
+
+
+  .lang-selector-content-display {
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  
+  
+  .lang-select-display,
+  .lang-close-display {
+    width: 100%;
+    margin-bottom: 7%;
+  }
+  
+  .flag-display {
+    width: 25%;
+  }
+  
+  .flag-display img {
+    width: 100%;
+  }
+  
+  .lang-display {
+    width: 58%;
+    cursor: pointer;
+  }

@@ -1,0 +1,176 @@
+.week-container {
+    width: 90%;
+    height: 95%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.week-content {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 32%;
+    height: 95%;
+    border-radius: 10px;
+    margin-right: 1.8%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.08), 0 4px 4px rgba(0, 0, 0, 0.08), 0 8px 8px rgba(0, 0, 0, 0.08);
+    position: relative;
+    transition: left .5s cubic-bezier(1, -0.47, .68, .53);
+}
+
+
+.left {
+    width: 50%;
+    height: 100%;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+}
+
+.forecast {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.forecast-day {
+    width: 100%;
+    height: 30%;
+    font-size: 1vmax;
+    text-align: center;
+}
+
+.forecast-container {
+    width: 95%;
+    height: 70%;
+    overflow: hidden;
+    position: relative;
+}
+
+.forecaste-icone {
+    width: 50%;
+    height: 100%;
+}
+
+.forecaste-icone img {
+    width: 6vmax;
+    position: relative;
+    transition: left .5s cubic-bezier(1, -0.47, .68, .53);
+}
+
+.details-layer-container {
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    left: 45%;
+    transition: bottom .5s cubic-bezier(1, -0.47, .68, .53);
+}
+
+.details-layer-content {
+    width: 100%;
+    height: 90%;
+}
+
+.item-details {
+    width: 100%;
+    height: 25%;
+}
+
+.item-details>:nth-child(1) {
+    width: 50%;
+    font-size: 1vmax;
+}
+
+.item-details>:nth-child(2),
+.item-details>:nth-child(3) {
+    width: 25%;
+
+}
+
+.forecastWeek-temp-container,
+.forecastWeek-snow-container,
+.forecast-chance-rain,
+.forecast-chance-snow {
+    width: 25%;
+    height: 100%;
+}
+
+.item-km,
+.item-km {
+    font-size: .7vmax;
+}
+
+.forecast-max-t,
+.forecast-min-t,
+.forecast-chance-rain,
+.forecast-chance-snow {
+    width: 100%;
+    height: 50%;
+    font-size: 1.2vmax;
+}
+
+.forecast-max-t>:nth-child(1),
+.forecast-min-t>:nth-child(1),
+.forecast-chance-rain>:nth-child(1),
+.forecast-chance-snow>:nth-child(1),
+.forecast-chance-rain>:nth-child(2),
+.forecast-chance-snow>:nth-child(2),
+.forecast-max-t>:nth-child(2),
+.forecast-min-t>:nth-child(2) {
+    font-size: 1.5vmax;
+}
+
+
+.arrow-week-right {
+    position: absolute;
+    z-index: 99;
+    left: -100px;
+    padding: 50px 10px 50px 10px;
+    background-color: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.08), 0 4px 4px rgba(0, 0, 0, 0.08), 0 8px 8px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+}
+
+.arrow-week-right:active,
+.arrow-week-left:active {
+    cursor: pointer;
+    box-shadow: inset 0px 0px 23px -8px rgba(0, 0, 0, 0.2);
+}
+
+.arrow-week-left {
+    position: absolute;
+    z-index: 99;
+    right: 8px;
+    padding: 50px 10px 50px 10px;
+    background-color: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.08), 0 4px 4px rgba(0, 0, 0, 0.08), 0 8px 8px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+}
+
+.details-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.detail-btn {
+    display: none;
+
+}
+
+.details-layer:hover>.detail-btn {
+    display: flex;
+    font-size: 2vmax;
+    padding: 3%;
+
+}
+
+.details-layer:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+}

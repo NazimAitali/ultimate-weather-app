@@ -1,0 +1,706 @@
+@media screen and (max-width: 992px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .essentiel-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .details-container {
+
+        position: absolute;
+        top: 100%;
+        z-index: 2;
+        width: 100%;
+    }
+
+    .item-km {
+        font-size: 1.5vmax;
+    }
+
+    .top-bar-option-content {
+        width: 100%;
+    }
+
+    .top-bar-menu-content {
+        width: 100%;
+    }
+
+    .temp {
+        font-size: 8vmax;
+    }
+
+    .feel {
+        font-size: 3vmax;
+    }
+
+    .weather-icone img {
+        width: 30vmin;
+    }
+
+    .menu {
+        display: flex !important;
+        font-size: 6vmax;
+    }
+
+    .close {
+        display: flex !important;
+
+    }
+
+    .close {
+        display: flex !important;
+        font-size: 3vmax;
+        width: 35%;
+    }
+
+    .little-menu {
+        width: 100%;
+    }
+
+    .degree-select {
+        width: 40%;
+    }
+
+    .modeD {
+        width: 15%;
+    }
+
+    .fahrenheit,
+    .celsius {
+        padding: 10%;
+        box-shadow: 0px 0px 23px -8px rgba(0, 0, 0, 0.6);
+    }
+
+    .week-container {
+
+        width: 95%;
+    }
+
+    .week-content {
+
+        width: 31%;
+    }
+
+    .week-icon img,
+    .hour-icon img {
+
+        width: 65px;
+    }
+
+    .forecast-day {
+        font-size: 2vmax;
+    }
+
+    .forecast-temp-container {
+        width: 85%;
+        height: 35%;
+    }
+
+    .forecaste-icone {
+        width: 50%;
+    }
+
+    .item-details>:nth-child(1) {
+
+        font-size: 1.5vmax;
+    }
+
+    .highlights {
+        width: 60%;
+        height: 80%;
+        margin-bottom: 1.5%;
+    }
+
+    .title {
+        font-size: 3vmax;
+    }
+
+    .icon-uv,
+    .icon-function {
+        font-size: 4vmax;
+    }
+
+    .mm-rain-today>div:nth-child(2),
+    .chance-rain-today>div:nth-child(2),
+    .km-wind-today>div:nth-child(2),
+    .km-visi-today>div:nth-child(2) {
+        font-size: 3vmax;
+    }
+
+    .mm-rain-today svg,
+    .chance-rain-today svg,
+    .km-wind-today svg,
+    .temp-max-today svg,
+    .km-visi-today svg {
+        font-size: 5vmax;
+    }
+
+    .mm-rain-today>div:nth-child(3),
+    .km-wind-today>div:nth-child(3),
+    .km-visi-today>div:nth-child(3) {
+        font-size: 2.5vmax;
+    }
+
+    .temp-max-today {
+        font-size: 6vmax;
+    }
+
+    .temp-min-today {
+        font-size: 5vmax;
+    }
+
+    .wind-status,
+    .visi-status {
+        font-size: 3vmax;
+    }
+
+    .highlights-title {
+        font-size: 2.2vmax;
+    }
+
+
+    .hour-icon img {
+        width: 85px;
+    }
+
+    .temp-min-hour,
+    .temp-max-hour {
+        font-size: 1.5vmax;
+    }
+
+    .temp-max-hour svg {
+        font-size: 2vmax;
+    }
+
+    .little-menu>div:nth-child(1) {
+        font-size: 2vmax;
+    }
+
+    .little-menu>div:nth-child(2) {
+        font-size: 2vmax;
+    }
+
+    .degree-contente {
+        width: 61%;
+    }
+
+    .temp-min,
+    .temp-max {
+        font-size: 1.5vmax;
+    }
+
+    .snowRain-nb {
+        font-size: 5vmax;
+    }
+
+    .snowRain-pr {
+        font-size: 3vmax;
+    }
+
+    .forecastWeek-temp-container,
+    .forecastWeek-snow-container,
+    .forecast-chance-rain,
+    .forecast-chance-snow {
+
+        width: 40%;
+    }
+
+    .forecast-max-t> :nth-child(1),
+    .forecast-min-t> :nth-child(1),
+    .forecast-chance-rain> :nth-child(1),
+    .forecast-chance-snow> :nth-child(1),
+    .forecast-chance-rain> :nth-child(2),
+    .forecast-chance-snow> :nth-child(2),
+    .forecast-max-t> :nth-child(2),
+    .forecast-min-t> :nth-child(2) {
+        font-size: 3vmax;
+    }
+
+    .forecast-max-t,
+    .forecast-min-t,
+    .forecast-chance-rain,
+    .forecast-chance-snow {
+        font-size: 1.5vmax;
+    }
+
+    .air-btn {
+        width: 20%;
+    }
+
+    .air-btn>div:nth-child(1) {
+        font-size: 2vmax;
+    }
+
+    .forecaste-icone img {
+        width: 9vmax;
+    }
+
+    .icon-input {
+        font-size: 2.2vmax;
+    }
+
+    .open-map,
+    .close-map {
+        font-size: 4vmax;
+    }
+
+    .map-container {
+        z-index: 2;
+    }
+
+    .map-container {
+        width: 100%;
+    }
+
+    .leaflet-container {
+        width: 95%;
+    }
+
+    .map {
+        width: 95%;
+    }
+
+    .mm-rain-today>div:nth-child(2),
+    .km-wind-today>div:nth-child(2),
+    .km-visi-today>div:nth-child(2),
+    .km-visi-today>div:nth-child(1),
+    .pressure>div:nth-child(1) {
+        font-size: 6vmax;
+    }
+
+    .mm-rain-today>div:nth-child(3),
+    .km-wind-today>div:nth-child(3),
+    .km-visi-today>div:nth-child(3),
+    .pressure>div:nth-child(2) {
+        font-size: 3vmax;
+    }
+
+    .wind-status,
+    .visi-status {
+        font-size: 3vmax;
+    }
+
+    .humPr {
+        font-size: 3vmax !important;
+    }
+
+    .snowRain-icon {
+        font-size: 6vmax;
+    }
+
+    .highlights-arrow-right,
+    .highlights-arrow-left {
+        left: 89%;
+    }
+
+    .km-wind-today,
+    .km-visi-today,
+    .pressure {
+        width: 95%;
+    }
+
+    .pie {
+        height: 150px;
+        width: 150px;
+    }
+
+    .icon-sun img {
+        width: 74%;
+    }
+
+    .μg {
+        font-size: 2vmax;
+    }
+
+    .contente-jauge-us {
+        width: 25%;
+    }
+
+    .index-us-status>div:nth-child(1) {
+        font-size: 3vmax;
+    }
+
+    .icon-sun img {
+        width: 90%;
+    }
+
+    .search {
+        width: 45%;
+    }
+
+    .day>:nth-child(1) {
+        display: flex;
+    }
+
+    .lang-icon {
+        font-size: 2.5vmax;
+    }
+
+    .feel> :nth-child(1) {
+        font-size: 3.8vmax;
+    }
+
+    .by-houre> :nth-child(1),
+    .by-houre> :nth-child(2) {
+
+        font-size: 2vmax;
+    }
+
+    .forecast-day {
+        font-size: 1.5vmax;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .essentiel-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    @keyframes transition2 {
+        from {
+            height: 0;
+            width: 0;
+            opacity: 0;
+        }
+
+        70% {
+            height: 0;
+            width: 0;
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+            width: auto;
+            height: auto;
+        }
+    }
+
+    .details-container {
+        position: absolute;
+        top: 0%;
+        z-index: 2;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .top-bar-option-content {
+        width: 100%;
+    }
+
+    .top-bar-menu-content {
+        width: 100%;
+    }
+
+    .menu {
+        display: flex !important;
+
+    }
+
+    .temp {
+        font-size: 10vmax;
+    }
+
+    .feel {
+        font-size: 3vmax;
+    }
+
+    .weather-icone img {
+        width: 23vmax;
+    }
+
+    .close {
+        display: flex !important;
+        font-size: 3vmax;
+        width: 25%;
+    }
+
+    .air-btn {
+        width: max-content;
+    }
+
+    .little-menu {
+        width: 76%;
+    }
+
+    .little-menu-highlights {
+        width: 100%;
+    }
+
+    .degree-select {
+        width: 60%;
+    }
+
+    .little-menu>div:nth-child(1) {
+
+        font-size: 2vmax;
+    }
+
+    .little-menu>div:nth-child(2) {
+
+        font-size: 2vmax;
+    }
+
+    .degree-contente {
+        width: 80%;
+    }
+
+    .air-btn>div:nth-child(1) {
+        font-size: 2vmax;
+    }
+
+    .modeD {
+        width: 40%;
+    }
+
+    .fahrenheit,
+    .celsius {
+        padding: 6%;
+    }
+
+    .hour-icon img {
+        width: 75%;
+    }
+
+    .week-container {
+
+        width: 95%;
+    }
+
+    .week-content {
+        width: 100%;
+        height: 90%;
+    }
+
+    .week-icon img {
+        width: 20vmax;
+    }
+
+    .forecast-day {
+        font-size: 2vmax;
+    }
+
+    .item-details>:nth-child(1) {
+
+        font-size: 2.5vmax;
+    }
+
+    .forecast-temp-container {
+        flex-direction: column;
+    }
+
+    .highlights {
+        background-color: white;
+        width: 100%;
+        height: 80%;
+        border-radius: 10px;
+        margin: 0px 0px 9px 0px;
+        box-shadow: 0px 0px 23px -8px rgba(133, 133, 133, 0.2);
+    }
+
+    .highlights-title {
+        height: 10%;
+    }
+
+    .highlights-content {
+        height: 90%;
+    }
+
+    .highlights-container {
+        height: 60%;
+    }
+
+    .today-week-container {
+        height: 30%;
+    }
+
+
+    .temp-min,
+    .temp-max {
+        font-size: 2vmax;
+    }
+
+    .temp-max-today {
+        font-size: 10vmax;
+    }
+
+    .temp-min-today {
+        font-size: 4vmax;
+    }
+
+    .mm-rain-today>div:nth-child(2),
+    .chance-rain-today>div:nth-child(2),
+    .km-wind-today>div:nth-child(2),
+    .km-visi-today>div:nth-child(1),
+    .km-visi-today>div:nth-child(2) {
+        font-size: 6vmax;
+    }
+
+    .mm-rain-today svg,
+    .chance-rain-today svg,
+    .km-wind-today svg,
+    .temp-max-today svg,
+    .km-visi-today svg {
+        font-size: 7vmax;
+    }
+
+    .mm-rain-today>div:nth-child(3),
+    .km-wind-today>div:nth-child(3),
+    .km-visi-today>div:nth-child(3) {
+        margin: none;
+        font-size: 3vmax;
+    }
+
+    .chance-rain-today>div:nth-child(3),
+    .km-wind-today>div:nth-child(3),
+    .km-visi-today>div:nth-child(3) {
+        font-size: 3vmax;
+    }
+
+    .icon-uv,
+    .icon-function {
+        font-size: 6vmax;
+    }
+
+    .title {
+        font-size: 3vmax;
+    }
+
+    .snowRain-nb {
+        font-size: 4vmax;
+
+    }
+
+    .snowRain-pr {
+        font-size: 3vmax;
+    }
+
+    .arrow-week-right {
+        left: 10px;
+    }
+
+    .arrow-week-left,
+    .arrow-week-right,
+    .houre-arrow-right,
+    .houre-arrow-left {
+        padding: 20px 5px 20px 5px;
+    }
+
+    .temp-min-hour,
+    .temp-max-hour {
+        font-size: 1.8vmax;
+        width: 100%;
+    }
+
+
+
+    .wind-status,
+    .visi-status {
+        font-size: 3vmax;
+    }
+
+    .forecast-max-t,
+    .forecast-min-t,
+    .forecast-chance-rain,
+    .forecast-chance-snow {
+        font-size: 2.8vmax;
+    }
+
+    .forecast-max-t> :nth-child(1),
+    .forecast-min-t> :nth-child(1),
+    .forecast-chance-rain> :nth-child(1),
+    .forecast-chance-snow> :nth-child(1),
+    .forecast-chance-rain> :nth-child(2),
+    .forecast-chance-snow> :nth-child(2),
+    .forecast-max-t> :nth-child(2),
+    .forecast-min-t> :nth-child(2) {
+        font-size: 3vmax;
+    }
+
+    .mm-rain-today>div:nth-child(2),
+    .km-wind-today>div:nth-child(2),
+    .km-visi-today>div:nth-child(1),
+    .pressure>div:nth-child(1) {
+        font-size: 10vmax;
+    }
+
+    .km-visi-today>div:nth-child(2) {
+        font-size: 10vmax;
+    }
+
+    .forecaste-icone img {
+        width: 16vmax;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .μg {
+        font-size: 5vmax;
+    }
+
+    .icon-sun img {
+        width: 65%;
+    }
+
+    .pressure>div:nth-child(2) {
+        font-size: 3vmax;
+    }
+
+    .pie {
+        height: 150px;
+        width: 150px;
+    }
+
+    .houre-content {
+        height: 80%;
+    }
+
+    .forecast-day {
+        font-size: 1.4vmax;
+        font-weight: 500;
+        height: 20%;
+        width: 80%;
+    }
+
+    .temp-max-hour>div:nth-child(1),
+    .temp-min-hour>div:nth-child(1),
+    .temp-max-hour>div:nth-child(2),
+    .temp-min-hour>div:nth-child(2) {
+        font-size: 2vmax;
+    }
+
+    .temp-min-hour svg {
+        font-size: 1.7vmax;
+
+    }
+
+    .temp-max-hour svg {
+        font-size: 3.5vmax;
+        height: 100%;
+    }
+}

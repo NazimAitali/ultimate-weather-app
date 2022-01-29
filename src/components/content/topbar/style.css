@@ -1,0 +1,141 @@
+.top-bar-container {
+  height: 10%;
+  width: 100%;
+}
+
+.top-bar-menu {
+  height: 100%;
+  width: 50%;
+  justify-content: flex-start !important;
+}
+
+.top-bar-menu-content {
+  height: 100%;
+  width: 60%;
+}
+
+.by-houre {
+  width:max-content;
+  position: relative;
+
+}
+
+.little-menu-highlights {
+  width: 100%;
+  height: 100%;
+}
+
+.close {
+  display: none !important;
+  font-size: 3vmin;
+  width: 60%;
+}
+
+.close:hover {
+  cursor: pointer;
+  color: tomato;
+}
+
+.little-menu div:hover {
+  cursor: pointer;
+}
+
+.top-bar-option {
+  width: 50%;
+  height: 100%;
+  justify-content: flex-end !important;
+}
+
+.degree-select {
+  width: 60%;
+  height: 100%;
+  justify-content: flex-end !important;
+}
+
+.degree-contente {
+  width: 50%;
+  height: 100%;
+  justify-content: space-evenly !important;
+}
+
+.fahrenheit,
+.celsius {
+  border-radius: 50%;
+  padding: 8%;
+  ;
+}
+
+.fahrenheit:hover,
+.celsius:hover {
+  background-color: rgb(0, 0, 0) !important;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  color: #f6f6f8;
+}
+
+.modeD {
+  width: 40%;
+  height: 100%;
+
+}
+
+.top-bar-option-content {
+  height: 100%;
+  width: 60%;
+}
+
+
+.switch-btn {
+  width: 42px;
+  height: 23px;
+  border-radius: 100px;
+  background-color: rgb(172, 172, 172);
+  box-shadow: inset 0px 0px 3px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.bg-icone {
+  position: relative;
+
+}
+
+.little-menu {
+  width: 76%;
+}
+
+.move-btn {
+  width: 40%;
+  height: 80%;
+  background-color: #F8F8F8;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 200px;
+  margin-left: 4%;
+  margin-right: 4%;
+  transition: left 0.2s cubic-bezier(0, .74, 1, .17);
+  position: relative;
+}
+
+.by-houre>:nth-child(1),
+.by-houre>:nth-child(2) {
+  z-index: 5;
+}
+
+.days-select-content {
+  padding-top: 35%;
+  height: 80%;
+}
+
+.days-select {
+  position: absolute;
+  top: -10px;
+  width: 120px;
+  z-index: 2;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px -1px rgba(0, 0, 0, 0.2);
+  transition: height 0.2s cubic-bezier(0, .74, 1, .17);
+
+}
+.days-select-content {
+  transition: opacity 5s ease-in;
+  transition-delay: 2s;
+}
